@@ -1,14 +1,19 @@
-# Tutorial Python WebSocket Firehose
+# Tutorial Python Firehose WebSocket
 
-This is a starter code to connect to ARTIK Cloud [WebSocket Firehose (/live)](https://developer.artik.cloud/documentation/data-management/rest-and-websockets.html#firehose-websocket) endpoint.   By running this sample you will learn to:
+This is a starter code to connect to ARTIK Cloud [Firehose WebSocket (/live)](https://developer.artik.cloud/documentation/data-management/rest-and-websockets.html#firehose-websocket) endpoint.   By running this sample you will learn to:
 
 - Connect to the ARTIK Cloud Firehose WebSocket url.
 - Monitor realtime messages sent to ARTIK Cloud by the specified source device.
 
+Consult [Python device channel WebSocket](https://github.com/artikcloud/tutorial-python-WebSocketDevicechannel) for how to use device channel WebSocket.
+
+Consult [An IoT remote control](https://developer.artik.cloud/documentation/tutorials/an-iot-remote-control.html#develop-an-android-app) for how to develop an Android monitor app.
+
 ## Requirements
 
-- [Python3](https://www.python.org/downloads/) >= 3.4
+- [Python3](https://www.python.org/downloads/) >= 3.5
 - [pip3](https://pypi.python.org/pypi/pip) >= 9.0
+
 
 ## Setup
 
@@ -36,7 +41,7 @@ Before running the sample, fill in the following into your the `config.json` fil
 }
 ```
 
-In the next section you will install dependencies and run the project.   Verify you are using Python >= 3.4 before continuing.   For example, below output shows Python 3.6.
+In the next section you will install dependencies and run the project.   Verify you are using Python >= 3.5 before continuing.   For example, below output shows Python 3.6.
 
 ```
 $ python3 --version
